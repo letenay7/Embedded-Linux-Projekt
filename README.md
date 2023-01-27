@@ -1,4 +1,4 @@
-# Embedded Linux MP3 pplayer
+# Embedded Linux MP3 player
 
 MP3 player Embedded Linux
 Navod na spustenie
