@@ -10,7 +10,11 @@ cp mediaplayer.config buildroot/board/qemu/arm-versatile/mediaplayer.config
 cd buildroot
 make qemu_arm_versatile_mediaplayer_defconfig
 make
+
+cp S10music.sh buildroot/output/target/etc/init.d/S10music.sh
+chmod 775 buildroot/output/target/etc/init.d/S10music.sh
 cd .. 
+
 #handle music
 
 MUSIC_DIR="buildroot/output/target/usr/share/music"
